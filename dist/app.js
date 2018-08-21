@@ -1,0 +1,3 @@
+require("common/manifest.js");
+require("common/vendor.js");
+global.webpackJsonp([4],{"+dEC":function(n,e,t){"use strict";e.a={created:function(){var n=wx.getStorageSync("logs")||[];n.unshift(Date.now()),wx.setStorageSync("logs",n),console.log("app created and cache logs by setStorageSync")}}},"1BRQ":function(n,e){},M93x:function(n,e,t){"use strict";var o=t("+dEC");var a=function(n){t("1BRQ")},c=t("kFxE")(o.a,null,a,null,null);e.a=c.exports},NHnr:function(n,e,t){"use strict";Object.defineProperty(e,"__esModule",{value:!0});var o=t("5nAL"),a=t.n(o),c=t("M93x");a.a.config.productionTip=!1,c.a.mpType="app",new a.a(c.a).$mount()}},["NHnr"]);
